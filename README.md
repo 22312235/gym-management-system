@@ -4,9 +4,9 @@
 CMPE314 – Software Engineering
 
 ## 👥 Team Members
-- Hana Shaimi
-- Majdoline ELBENNADI
-- Raid
+- 22312235 Hana Shaimi
+- 22310812 Majdoline ELBENNADI
+- 22213379 Raid Idris
 
 ---
 
