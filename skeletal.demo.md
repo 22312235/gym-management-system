@@ -71,24 +71,78 @@ The Admin can navigate through different management sections using the sidebar.
 
  If The Admin opens the Members section.
 The system displays a table of all registered members.
-The user can:
+The admin can:
 Add a new member
+<img width="1917" height="1029" alt="Image" src="https://github.com/user-attachments/assets/a9235946-8c2c-460f-b4b0-e375caf67d34" />
+
+
 Edit member information
+<img width="1917" height="1029" alt="Image" src="https://github.com/user-attachments/assets/8a89adfc-e647-4271-8945-1c12c25a2c0b" />
+
+
 Delete a member
+<img width="447" height="152" alt="Image" src="https://github.com/user-attachments/assets/df4d6434-6324-40f6-827f-a1668aa45692" />
+
+
 Search members by name or phone number
+<img width="329" height="85" alt="Image" src="https://github.com/user-attachments/assets/9de52993-ec97-4eef-af81-1f9214b103e2" />
+
+
 The system stores all changes in the database layer.
 <img width="1916" height="1029" alt="Image" src="https://github.com/user-attachments/assets/7c7a5fe3-1ee7-4521-9ff7-a414eda7fbcd" />
+
 
 If The Admin opens the Trainers section.
 The system displays all trainers registered in the system.
 The Admin can:
 Add trainers
 <img width="1919" height="1031" alt="Image" src="https://github.com/user-attachments/assets/2640daa0-22a8-4661-a8ca-d097efdaf2fc" />
+
+
 Edit trainer details
 <img width="1917" height="1029" alt="Image" src="https://github.com/user-attachments/assets/54e7d0ef-0d89-4d98-aefa-b339afb8fe93" />
+
+
 Delete trainers
 <img width="445" height="152" alt="Image" src="https://github.com/user-attachments/assets/7979609e-41ca-49ea-ae81-1ffa0346e7f5" />
+
+
 Assign members to trainers
 <img width="480" height="312" alt="Image" src="https://github.com/user-attachments/assets/f02b3e9a-f6cf-4c91-a2fa-bda485bf7701" />
+
+
 The system updates trainer assignments dynamically.
 <img width="1916" height="1029" alt="Image" src="https://github.com/user-attachments/assets/7c7a5fe3-1ee7-4521-9ff7-a414eda7fbcd" />
+
+If The user opens the Payments or Subscription section:
+The system displays:
+Membership plans
+Payment amounts
+Subscription status
+Expiry dates
+<img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/c9fb7639-bee5-465a-a840-ebeb08530b72" />
+
+
+The admin can:
+Add a new subscription
+<img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/542e5b72-a066-4a92-a3c5-7087b44b0986" />
+
+If The admin opens the Attendance section:
+The system displays attendance records for all members.
+<img width="1919" height="1027" alt="Image" src="https://github.com/user-attachments/assets/85a16dae-6665-4a39-bcda-7ca4c59458b8" />
+
+
+The admin can:
+Filter attendance by date
+Monitor check-in activity
+<img width="1917" height="1027" alt="Image" src="https://github.com/user-attachments/assets/89b7714d-9d77-47bb-80fa-ff04b48a87cb" />
+
+
+
+Review attendance history
+<img width="480" height="309" alt="Image" src="https://github.com/user-attachments/assets/d51429fd-727d-4576-9291-f82a3887bfb4" />
+
+
+
+
+
