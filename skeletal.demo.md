@@ -139,7 +139,7 @@ Monitor check-in activity
 
 
 
-Review attendance history
+And the admin can check in members : 
 <img width="480" height="309" alt="Image" src="https://github.com/user-attachments/assets/d51429fd-727d-4576-9291-f82a3887bfb4" />
 
 
