@@ -71,35 +71,153 @@ A use case diagram was designed for the Gym Management System.
 
 ---
 
-## 🔗 Relationships
-- Join Membership <<include>> Checkout  
-- Renew Membership <<include>> Checkout  
-- Checkout <<include>> Process Payment  
-- Registered Member is a specialization of Member  
+Lab 4 – Sequence Diagrams
+Part 1 – Library Kiosk Sequence Diagram
 
----
+The sequence diagram models the “Return Book” use case in the Library Kiosk system. The process begins when a student scans a book using the kiosk system. The system validates the book through the library database and checks whether the book is overdue.
 
-## 🖼️ Diagrams
+If the book is overdue, the kiosk calculates the fine and requests payment before continuing the return process. After successful validation and payment, the inventory is updated, a confirmation notification is sent, and the book is placed back on the shelf.
+
+Main Features
+Normal return workflow
+Overdue fine handling
+Invalid book handling
+Scanner failure alternative flow
+Notification service interaction
+Part 2 – Gym Management System Sequence Diagram
+
+The Gym Management System sequence diagram models the interactions between the user, system components, and database during gym operations such as authentication, membership management, subscription handling, attendance tracking, and payment processing.
+
+The diagram includes:
+
+Login validation
+Member/trainer management
+Subscription and payment processing
+Alternative validation flows
+Lab 5 – Activity Diagrams
+Part 1 – Library Kiosk Activity Diagram
+
+The activity diagram models the workflow of returning a book through the library kiosk system. The process includes scanning the book, validating it, checking overdue status, calculating fines, and updating the inventory.
+
+Decision nodes are used to handle:
+
+Invalid books
+Overdue books
+Fine payment approval
+
+Parallel activities are represented using fork and join nodes:
+
+Updating inventory
+Sending notifications
+Returning the book to the shelf
+Part 2 – Gym Management System Activity Diagram
+
+The Gym Management System activity diagram models the administrator workflow inside the GymPro platform.
+
+The workflow includes:
+
+User authentication
+Dashboard navigation
+Member and trainer management
+Subscription management
+Payment recording
+Logout and session clearing
+
+Decision points validate user credentials and system actions, while management tasks can occur independently within the system.
+
+Lab 6 – Data Flow Diagrams (DFDs)
+Part 1 – Library Kiosk DFDs
+Context Diagram (Level 0)
+
+The Level 0 DFD represents the Library Kiosk Return Book System as a single process interacting with:
+
+Student
+Library Database
+Notification Service
+Shelf Mechanism
+
+Main data flows include:
+
+Book ID
+Fine payment
+Validation requests
+Return confirmations
+Level 1 DFD
+
+The Level 1 DFD decomposes the Return Book System into multiple sub-processes:
+
+Validate Book
+Check Due Date
+Process Fine
+Update Inventory
+Send Notification
+
+The diagram also includes:
+
+Book Inventory
+Borrower Records
+Transaction Log
+Level 2 DFD
+
+The Level 2 DFD expands the “Process Fine” sub-process into:
+
+Calculate Fine
+Present Fine to Student
+Record Payment
+
+It demonstrates how overdue information, payment details, and transaction records move through the system.
+
+Part 2 – Gym Management System DFDs
+Context Diagram (Level 0)
+
+The Gym Management System context diagram models the interaction between:
+
+Admin
+Trainer
+Member
+
+and the central Gym Management System process.
+
+Level 1 DFD
+
+The Level 1 DFD decomposes the system into major processes:
+
+Authenticate User
+Manage Members/Trainers
+Manage Assignments
+Manage Subscriptions/Payments
+Attendance and Reporting
+
+The diagram also includes several data stores:
+
+Users
+Members
+Trainers
+Assignments
+Subscriptions
+Payments
+Attendance
+Level 2 DFD
+
+The Level 2 DFD expands one selected process into detailed lower-level processes, showing:
+
+Internal data movement
+Database interactions
+Fine-grained workflow operations
+Repository Structure
+/SequenceDiagrams
+/ActivityDiagrams
+/DFDDiagrams
+/index.html
+/style.css
+/script.js
+README.md
+Technologies Used
+HTML5
+CSS3
+JavaScript
+PlantUML
+Draw.io
+GitHub Pages
 
 
-### Gym Management System
-![Gym Diagram](gym.png)
-
----
-
-## 🛠️ Tool Used
-- Draw.io (diagrams.net)
-
----
-
-## 👩‍💻 Team Members
-- Hana Shaimi  
-- Majdoline  
-- Raid  
-
----
-
-## 📎 Notes
-This lab demonstrates the use of UML diagrams to model real-world systems and understand system interactions.
-
-stem
